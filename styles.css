@@ -1,16 +1,16 @@
 
 /* Your CSS Code here. */
-.main{
+.holder{
 	display:flex;
 	justify-content:space-between;
-	
+	flex-wrap:wrap;
 }
 .item{
 	width:100px;
 	height:100px;
 	order:1;
 	background-color:green;
-	flex-wrap:wrap;
+	
 }
 .item1{
 	width:100px;
